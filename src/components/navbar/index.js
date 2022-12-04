@@ -6,30 +6,55 @@ const Navbar = () => (
   <nav className="navbar">
     <NavLink
       exact
-      activeClassName="navbar__link--active"
-      className="navbar__link"
-      
+      style={({ isActive }) =>
+        isActive
+          ? {
+              color: "#fff",
+              background: "#7600dc",
+            }
+          : { color: "#545e6f", background: "#f0f0f0" }
+      }
       to="/"
     >
       Inicio
     </NavLink>
     <NavLink
-      activeClassName="navbar__link--active"
-      className="navbar__link"
+      style={({ isActive }) =>
+        isActive
+          ? {
+              color: "#0000FF",
+              textDecoration: "inline",
+            }
+          : { color: "#545e6f", background: "#f0f0f0", textDecoration: "none",
+          
+         }
+      }
       to="/enviar"
     >
       Enviar
     </NavLink>
     <NavLink
-      activeClassName="navbar__link--active"
-      className="navbar__link"
+      style={({ isActive }) =>
+        isActive
+          ? {
+              color: "#fff",
+              background: "#7600dc",
+            }
+          : { color: "#545e6f", background: "#f0f0f0" }
+      }
       to="/sobre"
     >
       Sobre
     </NavLink>
     <NavLink
-      activeClassName="navbar__link--active"
-      className="navbar__link"
+      style={({ isActive }) =>
+        isActive
+          ? {
+              color: "#fff",
+              background: "#7600dc",
+            }
+          : { color: "#545e6f", background: "#f0f0f0" }
+      }
       to="/contato"
     >
       contato
