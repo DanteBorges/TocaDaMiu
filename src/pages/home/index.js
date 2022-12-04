@@ -1,4 +1,5 @@
 import React from "react";
+import ContainerFilter from "../../components/containerFilter/index";
 import "./style.css";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             utilizar no processo de ensino - aprendizagem de crianças com o
             transtorno do espectro autista.
           </p>
+          <ContainerFilter/>
         </section>
   );
 };
