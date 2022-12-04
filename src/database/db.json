@@ -36,10 +36,7 @@
         {
             "ID": "3",
             "Nome": "AutiSpark: Autistas Jogos",
-            "Area": [
-                "Lingua Portuguesa",
-                "Matemática"
-            ],
+            "Area": "Diversas",
             "Ano": "2020",
             "Metodologia": null,
             "Custo": "Sim",
@@ -116,10 +113,7 @@
         {
             "ID": "3",
             "Nome": "AutiSpark: Autistas Jogos",
-            "Area": [
-                "Lingua Portuguesa",
-                "Matemática"
-            ],
+            "Area": "Diversas",
             "Ano": "2020",
             "Metodologia": "Não apresenta",
             "Custo": "R$36.99",

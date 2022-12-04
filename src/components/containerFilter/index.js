@@ -15,7 +15,6 @@ const ContainerFilter = () => {
       .then(
         (result) => {
           setIsLoaded(true);
-          console.log(isLoaded)
           setItems(result);
         },
         (error) => {
@@ -29,6 +28,7 @@ const ContainerFilter = () => {
 
   function search(items) {
     return items.filter((item) => {
+     
       if (item.Area === filterParam) {
         return searchParam.some((newItem) => {
           return (
@@ -51,10 +51,7 @@ const ContainerFilter = () => {
         {error.message}, if you get this error, the free API I used might have
         stopped working, but I created a simple example that demonstrate how
         this works,{" "}
-        <a href="https://codepen.io/Spruce_khalifa/pen/mdXEVKq">
-          {" "}
-          check it out{" "}
-        </a>{" "}
+       
       </p>
     );
   } else if (!isLoaded) {
@@ -100,13 +97,13 @@ const ContainerFilter = () => {
                   <h2 className="card-name">{item.Nome}</h2>
                   <ol className="card-list">
                     <li>
-                      population: <span>{item.Area}</span>
+                      Area: <span>{item.Area}</span>
                     </li>
                     <li>
-                      Region: <span>{item.Ano}</span>
+                      Ano: <span>{item.Ano}</span>
                     </li>
                     <li>
-                      Capital: <span>{item.Metodologia}</span>
+                      Metodologia: <span>{item.Metodologia}</span>
                     </li>
                   </ol>
                 </div>
