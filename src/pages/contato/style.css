@@ -1,0 +1,139 @@
+body {
+    background: #010119;
+    font-family: arial;
+    background-size: auto 100rem;
+    height: 100vh
+}
+
+.contato h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.contato {
+    display: flex;
+}
+
+.contato img {
+    margin: 20vh;
+    margin-top: 27vh;
+    width: 50vh;
+    height: 50vh;
+}
+
+.ContatoInfo {
+    margin-top: 20rem;
+    margin-right: 15vh;
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width: 767px) {
+    .contato {
+        margin-bottom: 0rem;
+        background-color: #010119;
+        display:block;
+    }
+    .ContatoInfo {
+        margin-top: 10rem;
+        margin-right: 1rem;
+        color: whitesmoke;
+        margin-left: 1rem;
+    }
+    .contato img {
+        display: none;
+    }
+    .contato h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contato h3 {
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .contato {
+        margin-bottom: 2rem;
+        margin-top: 7rem;
+        background-color: #010119;
+        display:flex;
+    }
+    .ContatoInfo {
+        margin-top: 6rem;
+        margin-left: 0rem;
+        color: whitesmoke;
+        margin-right: 2rem;
+    } 
+    .contato img {
+        margin: 2rem;
+        margin-right: 1rem;
+        margin-top: 12rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .contato h1 {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .contato h3 {
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .contato {
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+        background-color: #010119;
+        display:flex;
+    }
+    .ContatoInfo {
+        margin-top: 6rem;
+        margin-left: 0rem;
+        color: whitesmoke;
+        margin-right: 6rem;
+    } 
+    .contato img {
+        margin: 8rem;
+        margin-right: 1rem;
+        margin-top: 12rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .contato h1 {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .contato h3 {
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        text-decoration: none;
+    }
+}
