@@ -11,10 +11,13 @@ const Contato = () => {
         <h3>
           {" "}
           Atualmente sou acadêmico de Sistemas de Informação na Universidade
-          Estaudal de Montes Claros e papai da Miu! Se você tem alguma duvida ou
-          sujestão, sinta-se livre para entrar em contato!
+          Estaudal de Montes Claros e idealizador desse projeto! 
+          Se você tem alguma duvida ou sujestão, sinta-se livre para entrar em contato!
         </h3>
-        <h4>E-mail: marcus@miu.com.br</h4>
+        <h4>marcusalexsanderv@gmail.com</h4>
+        <h4><a href="">Instagram</a> &diams; <a href="">Linkedin</a>	&diams; <a href="">Portifólio</a></h4>
+        <h4></h4>
+        <h4></h4>
       </div>
     </section>
   );

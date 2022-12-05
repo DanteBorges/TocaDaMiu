@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Alcatea from "../../img/alcatea.png";
+import Alcatea from "../../img/mainALCA.png";
 
 const Sobre = () => {
   return (
@@ -8,7 +8,7 @@ const Sobre = () => {
       <div class="SobreInfo">
         <h1>Nosso projeto</h1>
         <p>
-          Oi! Bem vindo a Toca da Miu é fruto de um trabalho de conclusão de
+          Esse é o projeto AlcaTEA, ele é fruto de um trabalho de conclusão de
           curso intitulado "Estudo de ferramentas tecnológicas educacionais
           desenvolvidas para auxiliar o processo de ensino-aprendizagem de
           crianças com Transtorno do Espectro Autista (TEA)" desenvolvido por
