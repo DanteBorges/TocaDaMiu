@@ -1,27 +1,18 @@
 import React from "react";
 import "./style.css";
-import Alcatea from "../../img/alcatea.png";
 
 const Enviar = () => {
   return (
     <div>
       <section class="enviar">
         <div class="EnviarInfo">
-          <img src={Alcatea} alt={"Loba cinza uivando"} />
           <h1>Você deseja ajudar sugerindo uma ferramenta?</h1>
           <h3>
-            Basta preencher o formulário ao lado com os dados requisitados que
+            Preencha o formulário abaixo com os dados requisitados que
             analisaremos a sua sugestão!
           </h3>
         </div>
-
-        <form
-          id="fs-frm"
-          name="complaint-form"
-          accept-charset="utf-8"
-          action="https://formspree.io/f/xdojbaek"
-          method="post"
-        >
+        <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xdojbaek" method="post">
           <form id="fs-frm-inputs">
             <label class="label" for="full-name">
               Nome Completo
