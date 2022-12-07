@@ -63,7 +63,7 @@ const Enviar = () => {
             rows="6"
             name="Descrição da Ferramenta"
             id="complaint"
-            placeholder="Descreve aqui informações relevantes sobre a ferramenta que deseja enviar, como: Nome; Área do conhecimento; Link para acesso; etc."
+            placeholder="Descreva aqui informações relevantes sobre a ferramenta que deseja enviar, como: Nome; Área do conhecimento; Link para acesso; etc."
             required=""
           ></textarea>
 

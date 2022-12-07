@@ -10,11 +10,13 @@ h1 {
     font-size: 5rem;
 }
 
-p {
+.sobre p {
+    margin-top: 1rem;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-style: normal;
     text-align: justify;
+    margin-left: 2rem;
 }
 
 a {
