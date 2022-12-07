@@ -1,7 +1,7 @@
 import React from "react";
 import "./itemStyles.css";
 
-const Item = ({ Nome, Area, Ano, Metodologia, Custo, Disponibilidade }) => (
+const Item = ({ Nome, Area, Ano, Metodologia, Custo, Disponibilidade, Link }) => (
   <div className="item-container">
     <div>
       <span className="item-label">Nome:</span>
@@ -26,6 +26,9 @@ const Item = ({ Nome, Area, Ano, Metodologia, Custo, Disponibilidade }) => (
     <div>
       <span className="item-label">Disponibilidade:</span>
       {Disponibilidade}
+    </div>
+    <div>
+      <a className="item-label" href={Link}>Clique aqui para acessar essa ferramenta</a>
     </div>
   </div>
 );

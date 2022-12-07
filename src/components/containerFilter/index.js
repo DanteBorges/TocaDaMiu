@@ -7,10 +7,9 @@ const ContainerFilter = () => {
   const [filtersArea, setFiltersArea] = useState([]);
 
   const [selectedCategory, setSelectedCategory] = useState();
-  const [selectCost, setSelectedCost] = useState();
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3003/dados_para_filtro", {
+    fetch("http://127.0.0.1:3003/informacoes_das_ferramentas", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -28,49 +27,33 @@ const ContainerFilter = () => {
     }
     return filtersArea.filter(
       (item) =>
-        (item.Area === selectedCategory) && (item.Custo === selectCost)
+        (item.Area === selectedCategory)
     );
   }
 
-  var filteredList = useMemo(getFilteredList, [selectedCategory,selectCost, filtersArea]);
+  var filteredList = useMemo(getFilteredList, [selectedCategory, filtersArea]);
 
   function handleCategoryChange(event) {
     setSelectedCategory(event.target.value);
   }
 
-  function handleCost(event) {
-    setSelectedCost(event.target.value);
-  }
-
   return (
     <div className="app">
       <div className="filter-container">
-        <div>Filtrar por Area:</div>
+        <div>Filtrar pela área de conhecimento:</div>
         <div>
           <select
             name="category-list"
             id="category-list"
             onChange={handleCategoryChange}
           >
-            <option value="">All</option>
+            <option value="">Todas</option>
             <option value="Lingua Portuguesa">Lingua Portuguesa</option>
             <option value="Diversas">Diversas</option>
             <option value="Matemática">Matemática</option>
           </select>
         </div>
       </div>
-
-      <div className="filter-container">
-        <div>Filtrar por Custo:</div>
-        <div>
-          <select name="category-list" id="category-list" onChange={handleCost}>
-            <option value="">All</option>
-            <option value="Sim">Sim</option>
-            <option value="Não">Não</option>
-          </select>
-        </div>
-      </div>
-
       <div className="sport-list">
         {filteredList.map((element, index) => (
           <Item {...element} key={index} />

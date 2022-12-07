@@ -1,3 +1,69 @@
-.home {
-    height: 100vw;
+.home h1 {
+    margin-top: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.home p {
+    color: whitesmoke;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-style: normal;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 767px) {
+    .home h1 {
+        margin-top: 2rem;
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .home p {
+        margin-bottom: 13rem;
+        color: whitesmoke;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-style: normal;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .home h1 {
+        margin-top: 2rem;
+        color: whitesmoke;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    
+    .home p {
+        margin-bottom: 8rem;
+        color: whitesmoke;
+        margin-left: 4rem;
+        margin-right: 5rem;
+        font-style: normal;
+        text-align: center;
+    }	
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .home h1 {
+        margin-top: 2rem;
+        color: whitesmoke;
+        text-align: center;
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+    }
+    
+    .home p {
+        margin-bottom: 6rem;
+        color: whitesmoke;
+        margin-left: 4rem;
+        margin-right: 5rem;
+        font-style: normal;
+        text-align: center;
+    }	
 }

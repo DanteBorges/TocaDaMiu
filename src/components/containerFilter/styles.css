@@ -1,17 +1,22 @@
 .app {
   font-family: sans-serif;
   height: 100vh;
-  display: flex;
+  display: inherit;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #010119;
+  margin: 20rem;
 }
 .filter-container {
+  margin-top: -18rem;
+  margin-bottom: 3rem;
   display: flex;
   align-items: center;
   gap: 10px;
+  color: whitesmoke;
+  justify-content: flex-end;
 }
 #category-list {
   padding: 5px;

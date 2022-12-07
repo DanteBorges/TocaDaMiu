@@ -8,8 +8,7 @@ const Enviar = () => {
         <div class="EnviarInfo">
           <h1>Você deseja ajudar sugerindo uma ferramenta?</h1>
           <h3>
-            Preencha o formulário abaixo com os dados requisitados que
-            analisaremos a sua sugestão!
+            Preencha o formulário abaixo com os dados requisitados que analisaremos a sua sugestão!
           </h3>
         </div>
         <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xdojbaek" method="post">

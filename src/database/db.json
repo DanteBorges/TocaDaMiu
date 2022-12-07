@@ -1,78 +1,4 @@
 {
-    "dados_para_filtro": [
-        {
-            "ID": "0",
-            "Nome": "InterpreTEA",
-            "Area": "Lingua Portuguesa",
-            "Ano": "2022",
-            "Metodologia": "TEACCH",
-            "Custo": "Não",
-            "Disponibilidade": "Educapes"
-        },
-        {
-            "ID": "1",
-            "Nome": "Terapia da Linguagem e Cognição com MITA",
-            "Area": "Diversas",
-            "Ano": "2015",
-            "Metodologia": "MITA",
-            "Custo": "Não",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "ID": "2",
-            "Nome": "Jade Autism",
-            "Area": "Diversas",
-            "Ano": "2018",
-            "Metodologia": "DTT",
-            "Custo": "Não",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "ID": "3",
-            "Nome": "AutiSpark: Autistas Jogos",
-            "Area": "Diversas",
-            "Ano": "2020",
-            "Metodologia": null,
-            "Custo": "Sim",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "ID": "4",
-            "Nome": "123 Autismo",
-            "Area": "Matemática",
-            "Ano": "2018",
-            "Metodologia": null,
-            "Custo": "Sim",
-            "Disponibilidade": "Android"
-        },
-        {
-            "ID": "5",
-            "Nome": "AutApp - Autismo",
-            "Area": "Matemática",
-            "Ano": "2017",
-            "Metodologia": "TEACCH",
-            "Custo": "Não",
-            "Disponibilidade": "Android"
-        },
-        {
-            "ID": "6",
-            "Nome": "Contando o Autismo 123",
-            "Area": "Matemática",
-            "Ano": "2020",
-            "Metodologia": null,
-            "Custo": "Não",
-            "Disponibilidade": "Android"
-        }
-    ],
     "informacoes_das_ferramentas": [
         {
             "ID": "0",
@@ -91,10 +17,8 @@
             "Ano": "2015",
             "Metodologia": "MITA",
             "Custo": "Não",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ],
+            "Disponibilidade": 
+                "Android e IOS",
             "Link": "https://play.google.com/store/apps/details?id=com.imagiration.mita"
         },
         {
@@ -104,10 +28,7 @@
             "Ano": "2018",
             "Metodologia": "DTT",
             "Custo": "Não, porém apresenta versão paga.",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ],
+            "Disponibilidade": "Android e IOS",
             "Link": "https://play.google.com/store/apps/details?id=com.jadeautism.jadeautism"
         },
         {
@@ -117,10 +38,7 @@
             "Ano": "2020",
             "Metodologia": "Não apresenta",
             "Custo": "R$36.99",
-            "Disponibilidade": [
-                "Android",
-                "IOS"
-            ],
+            "Disponibilidade": "Android e IOS",
             "Link": "https://play.google.com/store/apps/details?id=com.iz.autispark.kids.autism.games.special.needs.educational.learning.therapy.social.skills.speech"
         },
         {
